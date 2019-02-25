@@ -52,7 +52,7 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
+      <div class="blog-wrapper"
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,

@@ -9,12 +9,13 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author } = data.site.siteMetadata
         return (
           <div
             style={{
               display: `flex`,
               marginBottom: rhythm(2.5),
+              justifyContent:`center`
             }}
           >
             <Image
@@ -31,7 +32,7 @@ function Bio() {
               }}
             />
             <p>
-              Blog of <strong>{author}</strong> | CSS Ninja 
+              Blog of <a href="https://in.linkedin.com/in/syogeshwaran"><strong>{author}</strong></a> {``} 
             </p>
           </div>
         )
