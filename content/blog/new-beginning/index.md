@@ -1,6 +1,7 @@
 ---
 title: Its new beginning
+tags: life
 date: "2019-02-25"
 ---
 
-This is my first post on my new fake blog! How exciting!
+> “It is never too late to be what you might have been.” —George Eliot

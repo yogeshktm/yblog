@@ -17,8 +17,10 @@ footer{
 }
 .blog-wrapper{
   /*border-left:10px double #000;*/
-  /*background:#fff;*/
+  background:#fff;
   min-height:100vh;
+  max-width:900px;
+  width:100%;
 }
 .article-list .published-date{
   float:right;
@@ -30,4 +32,7 @@ footer{
 }
 .article-list h3{
   margin-top:0;
+}
+blockquote{
+  margin-left:10px;
 }
