@@ -36,3 +36,15 @@ footer{
 blockquote{
   margin-left:10px;
 }
+
+@media only screen and (max-width:767px){
+  .article-list .published-date{
+    font-size:0.8rem;
+  }
+}
+@media only screen and (max-width:500px){
+  .article-list .published-date{
+    display: block;
+    float:none;
+  }
+}
