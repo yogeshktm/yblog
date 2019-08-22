@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `CSS Rowdy`,
+    title: `CSS Ninja`,
     author: `Yogeshwaran`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Personal Blog of yogeshwaran.Expert web designer and css ninja crafting websites since 2012.`,
+    siteUrl: `https://yogeshwaran.in`,
     social: {
       twitter: `jillthanni`,
     },
@@ -57,13 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Yogeshwaran's Blog`,
+        short_name: `Yogeshwaran`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#007acc`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-offline`,
