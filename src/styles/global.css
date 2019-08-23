@@ -1,3 +1,4 @@
+
 *{
   margin:0;
   padding:0;
@@ -16,11 +17,17 @@ footer{
   margin-top:40px;
 }
 .blog-wrapper{
-  /*border-left:10px double #000;*/
+  border-top:3px dashed;
   background:#fff;
   min-height:100vh;
   max-width:900px;
   width:100%;
+}
+.dark{
+  color:#fff;
+}
+.dark .blog-wrapper{
+  background: #3e3939;
 }
 .article-list .published-date{
   float:right;
