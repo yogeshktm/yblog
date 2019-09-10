@@ -34,7 +34,7 @@ footer{
   margin-top:0;
 }
 blockquote{
-  margin-left:10px;
+  margin-left:10px !important;
 }
 
 @media only screen and (max-width:767px){
