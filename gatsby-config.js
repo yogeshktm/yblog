@@ -53,7 +53,6 @@ module.exports = {
         trackingId: `UA-147002223-1`,
       },
     },
-    `gatsby-plugin-disqus`,
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
