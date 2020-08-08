@@ -1,5 +1,6 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { Link } from "gatsby"
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -10,6 +11,7 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
+        <Fragment>
         <h1
           style={{
             ...scale(1.5),
@@ -28,6 +30,7 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h1>
+      </Fragment>
       )
     } else {
       header = (

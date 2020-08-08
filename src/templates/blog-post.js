@@ -1,17 +1,22 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Disqus, CommentCount } from "gatsby-plugin-disqus"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
-
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-
+    let disqusConfig = {
+      //url: "https://yogeshwaran.in/",
+      url: `${config.siteUrl+location.pathname}`,
+      identifier: post.id,
+      title: post.title,
+    }
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -32,6 +37,8 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+          <CommentCount config={disqusConfig} placeholder={'No comments yet'} />
+          <Disqus config={disqusConfig} />
         <Bio />
 
         <ul

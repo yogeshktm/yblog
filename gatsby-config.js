@@ -53,6 +53,14 @@ module.exports = {
         trackingId: `UA-147002223-1`,
       },
     },
+    `gatsby-plugin-disqus`,
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `yogeshwaran`
+      }
+    },
+    'gatsby-plugin-dark-mode',
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
