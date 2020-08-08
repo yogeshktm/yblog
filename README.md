@@ -6,5 +6,8 @@ TODO
 
 - [x] Google analytics
 - [x] Feeds to Dev.to posts
-- [ ] Comments system
+- [x] Comments system
 - [ ] About me and other pages
+- [ ] Dark mode
+- [ ] Use css variables
+
