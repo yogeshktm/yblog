@@ -45,6 +45,9 @@
   "keywords": [
     "gatsby"
   ],
+  "resolutions": {
+    "sharp": "0.24.0"
+  },
   "license": "MIT",
   "main": "n/a",
   "repository": {
