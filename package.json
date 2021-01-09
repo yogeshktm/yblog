@@ -46,7 +46,7 @@
     "gatsby"
   ],
   "resolutions": {
-    "sharp": "0.23.0"
+    "sharp": "0.27.0"
   },
   "license": "MIT",
   "main": "n/a",
