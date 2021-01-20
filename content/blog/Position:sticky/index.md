@@ -10,11 +10,11 @@ Hello everyone, Welcome to my first post of 2021.
 
 Sticky is simply the combination of fixed and relative positions. Sticky Elements remain relative untill it touches the declared threshold level.
 
-```
-.sticky{
-  position:sticky;
+```css
+.sticky {
+  position: sticky;
   //Related Elements become fixed at their top:0
-  top:0;
+  top: 0;
 }
 ```
 

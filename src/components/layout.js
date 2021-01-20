@@ -1,6 +1,5 @@
 import React, { Fragment } from "react"
 import { Link } from "gatsby"
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
