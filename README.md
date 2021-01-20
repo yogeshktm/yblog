@@ -8,6 +8,8 @@ TODO
 - [x] Feeds to Dev.to posts
 - [x] Comments system
 - [ ] About me and other pages
-- [ ] Dark mode
-- [ ] Use css variables
+- [x] Dark mode - Toggle switch to other mode is pending
+- [ ] Use css variables 
+- [x] Syntax highlighting
+- [ ] Social sharing integration
 
