@@ -1,10 +1,12 @@
 import React, { Fragment } from "react"
 import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
+import Img from 'gatsby-image'
+
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, title, children,cover } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -33,6 +35,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
+        <fragment>
         <h3
           style={{
             fontFamily: `Montserrat, sans-serif`,
@@ -50,6 +53,8 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h3>
+        {cover ? <Img sizes={cover.childImageSharp.sizes} /> : null}
+        </fragment>
       )
     }
     return (

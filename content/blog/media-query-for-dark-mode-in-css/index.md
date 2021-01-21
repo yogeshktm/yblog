@@ -2,6 +2,7 @@
 title: Media query for dark mode in css
 tags: css,dark mode,dark mode media query
 date: "2021-01-20"
+cover: "../../assets/images/dark-mode-banner.png"
 ---
 
 Its 2021 almost every android,ios and windows devices have the option to choose light/dark mode as their preferable mode. its nice to have dark/light mode in your websites. Fancy isn't it ?

@@ -17,7 +17,8 @@ class BlogPostTemplate extends React.Component {
       title: post.title,
     }
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={siteTitle} cover={post.frontmatter.cover}
+      >
         <SEO title={post.frontmatter.title} description={post.excerpt} />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -86,6 +87,14 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        cover {
+          publicURL
+          childImageSharp {
+            sizes(maxWidth: 2000) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }
