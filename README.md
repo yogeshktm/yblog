@@ -12,4 +12,5 @@ TODO
 - [ ] Use css variables 
 - [x] Syntax highlighting
 - [ ] Social sharing integration
+- [ ] Newsletter subscription
 
