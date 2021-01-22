@@ -13,4 +13,6 @@ TODO
 - [x] Syntax highlighting
 - [ ] Social sharing integration
 - [ ] Newsletter subscription
+- [x] Banner images for blog posts
+
 
